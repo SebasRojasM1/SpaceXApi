@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(11, 11, 58);
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+header img{
+    width: 280px;
+}
+
+
+/* Cards - Mission */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: center;
+}
+
+thead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video{
+    margin: auto;
+    margin: 0 20%;
+}
